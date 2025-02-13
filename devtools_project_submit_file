@@ -1,4 +1,4 @@
-# Choosing a build backend:
+I# Choosing a build backend:
 requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
@@ -10,7 +10,7 @@ description = "@DESCRIPTION"
 readme = "README.md"
 requires-python = ">=3.9"
 license = { file = "LICENSE" }
-authors = [{ name = "@NAME", email = "@DESCRIPTION" }]
+authors = [{ name = "@NAME", email = "@EMAIL" }]
 dynamic = ["dependencies"]
 
 [tool.setuptools.packages.find]
